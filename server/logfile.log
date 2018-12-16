@@ -1,0 +1,70 @@
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T11:34:01.033Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T11:34:13.426Z"}
+{"message":"test","stack":"Error: test\n    at router.get (D:\\Projects\\EVocab\\EVocab\\server\\routes\\users.js:15:11)\n    at D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at auth (D:\\Projects\\EVocab\\EVocab\\server\\middleware\\auth.js:10:9)\n    at D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:47:12)","level":"error","timestamp":"2018-12-16T11:34:21.797Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T11:34:30.015Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T11:34:56.117Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T11:35:13.658Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T11:35:53.334Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T11:35:56.342Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T11:36:02.851Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T11:36:12.915Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T11:36:38.079Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T11:36:47.378Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T11:36:58.030Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T11:37:02.029Z"}
+{"message":"test","stack":"Error: test\n    at router.get (D:\\Projects\\EVocab\\EVocab\\server\\routes\\users.js:15:11)\n    at D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at auth (D:\\Projects\\EVocab\\EVocab\\server\\middleware\\auth.js:10:9)\n    at D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:47:12)","level":"error","timestamp":"2018-12-16T11:37:07.678Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T11:37:18.717Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T11:37:31.032Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T11:37:38.907Z"}
+{"message":"test","stack":"Error: test\n    at router.get (D:\\Projects\\EVocab\\EVocab\\server\\routes\\users.js:15:11)\n    at D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at auth (D:\\Projects\\EVocab\\EVocab\\server\\middleware\\auth.js:10:9)\n    at D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:47:12)","level":"error","timestamp":"2018-12-16T11:37:42.113Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T12:28:03.555Z"}
+{"message":"test","stack":"Error: test\n    at router.get (D:\\Projects\\EVocab\\EVocab\\server\\routes\\users.js:15:11)\n    at D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at auth (D:\\Projects\\EVocab\\EVocab\\server\\middleware\\auth.js:10:9)\n    at D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Projects\\EVocab\\EVocab\\server\\node_modules\\express\\lib\\router\\index.js:47:12)","level":"error","timestamp":"2018-12-16T12:28:05.907Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T12:28:13.487Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T12:30:07.014Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:29:49.909Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:29:53.955Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:30:17.819Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:30:21.998Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:30:33.068Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:31:06.216Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:32:20.562Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:32:39.349Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:33:11.665Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:33:37.740Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:33:56.752Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:34:11.851Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:35:20.008Z"}
+{"level":"info","message":"","timestamp":"2018-12-16T13:36:00.525Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:36:01.838Z"}
+{"level":"info","message":"connected to server listening on port 3002","timestamp":"2018-12-16T13:36:28.582Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:36:29.764Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2018-12-16T13:36:37.325Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:36:38.431Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2018-12-16T13:56:18.637Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:56:19.903Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2018-12-16T13:57:25.469Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:57:26.651Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2018-12-16T13:58:30.690Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T13:58:31.935Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2018-12-16T14:00:10.173Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T14:00:11.333Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2018-12-16T14:01:25.370Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T14:01:26.552Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2018-12-16T14:02:04.144Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T14:02:05.386Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2018-12-16T14:02:26.548Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T14:02:27.709Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2018-12-16T14:02:46.144Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T14:02:47.317Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2018-12-16T14:03:08.566Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2018-12-16T14:21:57.922Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T14:21:59.169Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2018-12-16T14:23:00.782Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T14:23:01.939Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2018-12-16T14:23:25.904Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2018-12-16T14:23:27.718Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T14:23:28.866Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2018-12-16T14:25:25.888Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T14:25:27.145Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2018-12-16T14:30:23.740Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2018-12-16T14:30:24.836Z"}

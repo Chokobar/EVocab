@@ -2,11 +2,9 @@ const express = require('express');
 const { User, validateUser } = require('../models/user');
 const _ = require('lodash');
 const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken');
 const config = require('config');
 const auth = require('../middleware/auth');
 const admin = require('../middleware/admin');
-
 const router = express.Router();
 
 router.get('/', [auth, admin], async (req, res) => {
@@ -14,7 +12,7 @@ router.get('/', [auth, admin], async (req, res) => {
 });
 
 router.get('/me', auth, async (req, res) => {
-    const user = await User.findById(_.pick(req.user, '_id')).select('-password')
+    const user = await User.findById(_.pick(req.user, '_id')).select('-password');
     res.send(user);
 });
 
