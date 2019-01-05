@@ -1,5 +1,5 @@
 const express = require('express');
-const { User, validateUser } = require('../models/user');
+const { User, validateRegisterUser } = require('../models/user');
 const _ = require('lodash');
 const bcrypt = require('bcrypt');
 const config = require('config');
@@ -17,7 +17,7 @@ router.get('/me', auth, async (req, res) => {
 });
 
 router.post('/register', async (req, res) => {
-    const { error } = validateUser(req.body);
+    const { error } = validateRegisterUser(req.body);
     if (error) return res.status(400).send(error.message);
 
     let user = await User.findOne({ email: req.body.email });

@@ -1,13 +1,11 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { Hello } from "./components/Hello";
-import { TodoLists } from "./components/TodoLists";
+import { BaseRouter } from "./components/Base/BaseRouter";
 
 export const App = () => {
     return (
       <div>
-        <Hello greeting="Purkin" />
-        <TodoLists />
+        <BaseRouter />
       </div>
     );
   };

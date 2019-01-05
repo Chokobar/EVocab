@@ -6,19 +6,19 @@ const config = require('config');
 const userSchema = mongoose.Schema({
     username: {
         type: String,
-        require: true,
+        require: false,
         minlength: 4,
         maxlength: 50
     },
     password: {
         type: String,
-        require: true,
+        require: false,
         minlength: 4,
         maxlength: 255
     },
     email: {
         type: String,
-        require: true,
+        require: false,
         minlength: 4,
         maxlength: 255,
         unique: true
@@ -26,6 +26,14 @@ const userSchema = mongoose.Schema({
     isAdmin: {
         type: Boolean,
         default: false,
+    },
+    vocab: {
+        type: Array,
+        require: false,
+    },
+    successedVocab: {
+        type: Array,
+        require: false,
     }
 })
 
@@ -36,7 +44,7 @@ userSchema.methods.generateAuthToken = function() {
 
 const User = mongoose.model('User', userSchema);
 
-const validateUser = (user) => {
+const validateRegisterUser = (user) => {
     const schema = {
         username: Joi.string().min(4).max(50).required(),
         password: Joi.string().min(4).max(255).required(),
@@ -48,4 +56,4 @@ const validateUser = (user) => {
 }
 
 exports.User = User;
-exports.validateUser = validateUser;
+exports.validateRegisterUser = validateRegisterUser;

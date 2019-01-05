@@ -25,7 +25,7 @@ router.put('/:id', (req, res) => {
         {$set: { name: req.body.name}},
         {new: true}, 
         (err, result) => {
-            if (err) res.send("Got an error when trying to update: ", err);
+            if (err) return res.send("Got an error when trying to update: ", err);
             res.send(result);
         }
     );

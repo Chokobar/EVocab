@@ -3,7 +3,7 @@ const winston = require('winston');
 module.exports = function (err, req, res, next) {
     winston.error(err.message, err);
     
-    console.log('ehreherherhehehehre')
+    console.log('This is from error middleware', err.message);
     // error
     // warn
     // info 
