@@ -7,7 +7,7 @@ const router = express.Router();
 // normal get first vocab
 router.get('/getVocab', auth, async(req, res) => {
     const { vocab } = await getUserVocab(req);
-    res.status(200).send(vocab.length === 0 ? [] : vocab);
+    res.status(200).send(vocab.length === 0 ? [] : vocab[0]);
 });
 
 // example request 

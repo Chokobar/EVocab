@@ -1,23 +1,25 @@
 {
-  "name": "todostoday",
+  "name": "evocab",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "proxy": "http://localhost:3001",
   "scripts": {
     "watch": "webpack-dev-server --mode development --open",
+    "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chokobar/TodosToday.git"
+    "url": "git+https://github.com/Chokobar/EVocab.git"
   },
   "author": "Purkin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Chokobar/TodosToday/issues"
+    "url": "https://github.com/Chokobar/EVocab/issues"
   },
-  "homepage": "https://github.com/Chokobar/TodosToday#readme",
+  "homepage": "https://github.com/Chokobar/EVocab#readme",
   "devDependencies": {
     "@types/react": "^16.4.7",
     "@types/react-dom": "^16.0.6",

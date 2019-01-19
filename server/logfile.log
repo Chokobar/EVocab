@@ -1,0 +1,40 @@
+{"level":"info","message":"Listening on port 3002","timestamp":"2019-01-08T04:45:08.247Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-08T04:45:09.413Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2019-01-08T07:25:34.888Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-08T07:25:36.063Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2019-01-08T07:38:10.614Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-08T07:38:12.007Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2019-01-08T07:59:14.033Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-08T07:59:15.224Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-01-08T08:20:30.725Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-08T08:20:34.018Z"}
+{"message":"Topology was destroyed","stack":"MongoError: Topology was destroyed\n    at initializeCursor (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb-core/lib/cursor.js:766:25)\n    at nextFunction (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb-core/lib/cursor.js:591:12)\n    at Cursor.next (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb-core/lib/cursor.js:833:3)\n    at Cursor._next (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/cursor.js:211:36)\n    at nextObject (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/operations/cursor_ops.js:184:10)\n    at next (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/operations/cursor_ops.js:163:3)\n    at executeOperation (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/utils.js:420:24)\n    at Cursor.next (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/cursor.js:253:10)\n    at findOne (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/operations/collection_ops.js:581:10)\n    at executeOperation (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/utils.js:420:24)\n    at Collection.<anonymous> (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/collection.js:1031:12)\n    at Collection.deprecated [as findOne] (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/utils.js:678:15)\n    at NativeCollection.(anonymous function) [as findOne] (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:146:28)\n    at NodeCollection.findOne (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mquery/lib/collection/node.js:42:19)\n    at model.Query.Query.findOne (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mquery/lib/mquery.js:2025:20)\n    at model.Query.Query._findOne (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongoose/lib/query.js:1942:22)","name":"MongoError","level":"error","timestamp":"2019-01-08T12:56:24.233Z"}
+{"message":"Topology was destroyed","stack":"MongoError: Topology was destroyed\n    at initializeCursor (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb-core/lib/cursor.js:766:25)\n    at nextFunction (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb-core/lib/cursor.js:591:12)\n    at Cursor.next (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb-core/lib/cursor.js:833:3)\n    at Cursor._next (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/cursor.js:211:36)\n    at nextObject (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/operations/cursor_ops.js:184:10)\n    at next (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/operations/cursor_ops.js:163:3)\n    at executeOperation (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/utils.js:420:24)\n    at Cursor.next (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/cursor.js:253:10)\n    at findOne (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/operations/collection_ops.js:581:10)\n    at executeOperation (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/utils.js:420:24)\n    at Collection.<anonymous> (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/collection.js:1031:12)\n    at Collection.deprecated [as findOne] (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongodb/lib/utils.js:678:15)\n    at NativeCollection.(anonymous function) [as findOne] (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:146:28)\n    at NodeCollection.findOne (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mquery/lib/collection/node.js:42:19)\n    at model.Query.Query.findOne (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mquery/lib/mquery.js:2025:20)\n    at model.Query.Query._findOne (/Users/Chokobar/Documents/Projects/EVocab/EVocab/server/node_modules/mongoose/lib/query.js:1942:22)","name":"MongoError","level":"error","timestamp":"2019-01-08T12:56:36.820Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-01-08T12:57:21.604Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-08T12:57:22.865Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-01-08T14:50:16.484Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-08T14:50:17.725Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-01-08T14:50:39.663Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-08T14:50:41.070Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-01-08T14:57:41.744Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-08T14:57:42.867Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-01-08T15:13:03.021Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-08T15:13:04.331Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-01-08T15:53:39.166Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-08T15:53:40.427Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-01-08T15:54:16.329Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-08T15:54:17.746Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-01-08T15:54:41.055Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-08T15:54:42.217Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-01-08T15:56:47.802Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-08T15:56:49.070Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-01-08T16:01:31.806Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-08T16:01:33.269Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-01-08T16:02:23.724Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-08T16:02:25.069Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-01-15T15:20:38.688Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-15T15:20:39.895Z"}
+{"level":"info","message":"Listening on port 3002","timestamp":"2019-01-15T17:00:30.735Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-15T17:00:31.933Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-01-15T17:00:46.608Z"}
+{"level":"info","message":"connected to mongodb","timestamp":"2019-01-15T17:00:47.762Z"}
