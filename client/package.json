@@ -1,0 +1,47 @@
+{
+  "name": "todostoday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack-dev-server --mode development --open",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chokobar/TodosToday.git"
+  },
+  "author": "Purkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chokobar/TodosToday/issues"
+  },
+  "homepage": "https://github.com/Chokobar/TodosToday#readme",
+  "devDependencies": {
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.4.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.2.1",
+    "css-loader": "^2.1.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.3.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "popper.js": "^1.14.6",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
