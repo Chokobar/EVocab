@@ -1,13 +1,14 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { BaseRouter } from "./components/Base/BaseRouter";
+import { BrowserRouter as Router, HashRouter } from "react-router-dom";
 
 export const App = () => {
     return (
-      <div>
-        <BaseRouter />
-      </div>
+        <HashRouter>
+          <BaseRouter />
+        </HashRouter>
     );
-  };
+};
 
-export default App;
+export default App; 
