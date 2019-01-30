@@ -1,4 +1,5 @@
 {
     "jwtPrivateKey": "EVocab",
-    "MongodbConnectionString": "mongodb://jay:j8418232982@ds131784.mlab.com:31784/practicedb"
+    "MongodbConnectionString": "mongodb://jay:j8418232982@ds131784.mlab.com:31784/practicedb",
+    "authTokenKey": "x-auth-token"
 }
