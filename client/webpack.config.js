@@ -1,10 +1,30 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const path = require('path');
+
 module.exports = {
+  entry: ['babel-polyfill', './src/index.jsx'],
+  output: {
+    filename: "bundle.js",
+    path: path.resolve(__dirname, "/dist")
+  },
+  devtool: "source-map",
+  devServer: {
+    proxy: {
+      '/api': {
+          target: 'http://localhost:3001',
+          secure: false
+      }
+    }
+  },
+  resolve: {
+    extensions: ['.js', '.jsx','.json']
+  },
+
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader"
@@ -22,6 +42,9 @@ module.exports = {
       {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, "css-loader"]
+      },
+      { 
+        enforce: "pre", test: /\.(js|jsx)$/, loader: "source-map-loader" 
       },
       {
         test: /\.(scss)$/,
@@ -53,6 +76,7 @@ module.exports = {
       }
     ]
   },
+  
   plugins: [
     new HtmlWebPackPlugin({
       template: "./src/index.html",
@@ -62,5 +86,8 @@ module.exports = {
       filename: "[name].css",
       chunkFilename: "[id].css"
     })
-  ]
+  ],
+  watchOptions: {
+    poll: true
+  }
 };
