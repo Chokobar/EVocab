@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"cd backend && node server.js\" \"cd frontend && npm start\"",
+    "watch": "concurrently \"cd server && yarn watch\" \"cd client && yarn watch\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
