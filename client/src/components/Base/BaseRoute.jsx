@@ -8,6 +8,7 @@ import { authKey, getAuthToken } from "../Helper/Utility.js";
 const Index = () => <h2>fromIndex</h2>;
 const Public = () => <h2>From public</h2>;
 const Protected = () => <h2>from protected</h2>;
+const LogedInProtected = () => <h2>from logged in protected</h2>;
 
 class BaseRoute extends React.Component {
     constructor(props) {
@@ -93,8 +94,26 @@ class BaseRoute extends React.Component {
     loggedInRoute = () => {
         return (
             <div>
-                IsLoggedIn
+                <nav>
+                    <ul>
+                        <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/public/">public</Link>
+                        </li>
+                        <li>
+                            <Link to="/protected/">protected</Link>
+                        </li>
+                    </ul>
+                </nav>
                 <this.AuthButton />
+                <Switch>
+                    <Route path="/" exact component={Index} />
+                    <Route path="/public" exact component={Public} />
+                    <this.PrivateRoute path="/protected" component={LogedInProtected} />
+                    <Route path="*" component={()=>(<div>No Page You Are Looking For.</div>)} />
+                </Switch>
             </div>
         );
     };

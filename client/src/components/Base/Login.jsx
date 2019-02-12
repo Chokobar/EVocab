@@ -30,8 +30,7 @@ export default class Login extends React.Component {
                 addingAuthKey(response.headers[authKey]);
                 this.setState({
                     redirectToReferrer: true
-                })
-                this.props.changeLoginState();
+                });
             } else {
                 console.log("You are rejected to log in please contact admin.")
             }
@@ -72,6 +71,7 @@ export default class Login extends React.Component {
         const { redirectToReferrer } = this.state
 
         if (redirectToReferrer) {
+            this.props.changeLoginState();
             return <Redirect to={from} />
         }
 
