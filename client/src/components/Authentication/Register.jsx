@@ -3,13 +3,21 @@ import { addingAuthKey, authKey } from "../Helper/Utility.js";
 import axios from "axios";
 import { Redirect } from "react-router-dom";
 
-export default class Login extends React.Component {
+export default class Register extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             redirectToReferrer: false,
+            username: "",
             email: "",
             password: "",
+            repassword: ""
+        }
+    }
+
+    componentDidUpdate() {
+        if (this.state.redirectToReferrer) {
+            this.props.changeLoginState();
         }
     }
 
@@ -20,19 +28,20 @@ export default class Login extends React.Component {
     }
 
     onSubmit = (event) => {
-        axios.post("/api/auth", {
+        axios.post("/api/users/register", {
+            username: this.state.username,
+            password: this.state.password,
             email: this.state.email,
-            password: this.state.password
         })
         .then((response) => {
             if (response.data) {
-                console.log("You have just logged in!");
+                console.log("You have just registered!");
                 addingAuthKey(response.headers[authKey]);
                 this.setState({
                     redirectToReferrer: true
                 });
             } else {
-                console.log("You are rejected to log in please contact admin.")
+                console.log("You are rejected to register please contact admin.")
             }
         })
         .catch((error) => {
@@ -54,10 +63,26 @@ export default class Login extends React.Component {
                         onChange={this.onChangeText}
                     ></input>
                     <input 
+                        name="username"
+                        className="col-sm-3 form-control" 
+                        placeholder="your display name here" 
+                        value={this.state.username} 
+                        onChange={this.onChangeText}
+                    ></input>
+                    <input 
                         name="password"
+                        type="password"
                         className="col-sm-3 form-control" 
                         placeholder="your password here" 
                         value={this.state.password} 
+                        onChange={this.onChangeText}
+                    ></input>
+                    <input 
+                        name="repassword"
+                        type="password"
+                        className="col-sm-3 form-control" 
+                        placeholder="your password again" 
+                        value={this.state.repassword} 
                         onChange={this.onChangeText}
                     ></input>
                     <button type="submit" className="col-sm-3 btn btn-danger">Submit</button>
@@ -71,7 +96,6 @@ export default class Login extends React.Component {
         const { redirectToReferrer } = this.state
 
         if (redirectToReferrer) {
-            this.props.changeLoginState();
             return <Redirect to={from} />
         }
 

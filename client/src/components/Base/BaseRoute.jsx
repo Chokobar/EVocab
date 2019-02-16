@@ -1,14 +1,12 @@
 import React from "react";
 import { Route, Link, Redirect, withRouter, Switch } from "react-router-dom";
-import Login from "./Login.jsx";
-import withLoading from "./withLoading.jsx";
+import Login from "../Authentication/Login.jsx";
+import Register from "../Authentication/Register.jsx";
 import axios from "axios";
 import { authKey, getAuthToken } from "../Helper/Utility.js";
 
 const Index = () => <h2>fromIndex</h2>;
 const Public = () => <h2>From public</h2>;
-const Protected = () => <h2>from protected</h2>;
-const LogedInProtected = () => <h2>from logged in protected</h2>;
 
 class BaseRoute extends React.Component {
     constructor(props) {
@@ -91,7 +89,7 @@ class BaseRoute extends React.Component {
         )
     };
 
-    loggedInRoute = () => {
+    MainRoute = () => {
         return (
             <div>
                 <nav>
@@ -100,46 +98,16 @@ class BaseRoute extends React.Component {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/public/">public</Link>
-                        </li>
-                        <li>
-                            <Link to="/protected/">protected</Link>
+                            <Link to="/public/">Content</Link>
                         </li>
                     </ul>
                 </nav>
                 <this.AuthButton />
                 <Switch>
-                    <Route path="/" exact component={Index} />
-                    <Route path="/public" exact component={Public} />
-                    <this.PrivateRoute path="/protected" component={LogedInProtected} />
-                    <Route path="*" component={()=>(<div>No Page You Are Looking For.</div>)} />
-                </Switch>
-            </div>
-        );
-    };
-
-    notLoggedInRoute = () => {
-        return (
-            <div>
-                <nav>
-                    <ul>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/public/">public</Link>
-                        </li>
-                        <li>
-                            <Link to="/protected/">protected</Link>
-                        </li>
-                    </ul>
-                </nav>
-                <this.AuthButton />
-                <Switch>
-                    <Route path="/" exact component={Index} />
+                    <this.PrivateRoute path="/" exact component={Index} />
                     <Route path="/public" exact component={Public} />
                     <this.RouterPassingLoginState path="/login" component={Login} />
-                    <this.PrivateRoute path="/protected" component={Protected} />
+                    <this.RouterPassingLoginState path="/register" component={Register} />
                     <Route path="*" component={()=>(<div>No Page You Are Looking For.</div>)} />
                 </Switch>
             </div>
@@ -149,7 +117,7 @@ class BaseRoute extends React.Component {
     render() {
         return (
             <div>
-                {this.state.isLoggedIn ? this.loggedInRoute() : this.notLoggedInRoute()}
+                {this.MainRoute()}
             </div>
         );
     };
